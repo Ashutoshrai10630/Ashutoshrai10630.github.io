@@ -407,6 +407,7 @@ body {
 }
 .work__img-box img{
     width: 100%;
+    height: 150px;
 }
 .work__title{
     margin-top: 1rem;
@@ -414,6 +415,7 @@ body {
 }
 .work__badges{
     display: flex;
+    justify-content: center;
     margin-top: 2rem;
     overflow: hidden;
 }
@@ -425,7 +427,14 @@ body {
     padding: 1rem;
     margin-right: 1rem;
 }
-
+.work-last{
+    margin-top:20px ;
+    
+}
+.work-last h3{
+    display: flex;
+    justify-content: center;
+}
 /*
  * ==================
  * Contact
